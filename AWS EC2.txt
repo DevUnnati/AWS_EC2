@@ -1,0 +1,133 @@
+What is Cloud?
+Cloud is a way to share resource by the internet. It is saved on the remote location.Resources like database, storage, application etc.
+The best thing in cloud you need to pay on a limited time in which time you use the resources.
+
+what is cloud computing?
+cloud computing is the ondemand delievery of computer power, database storage, volume, applications and other IT resources through a cloud service platform via internet with pay as you go pricing model.
+
+AWS is stand for Amazon Web Service.
+
+Top Players in CLoud:-
+AWS
+Microsoft Azure
+GCP
+Alibaba cloud
+Oracle , VMWare
+
+
+Features of cloud (Any Platform)
+a) OnDemand Self Service
+b) Broad network Access
+c) Scalability
+d) Resource Pooling
+e) Measured Services
+
+Resource Pooling means it is a collection of resource like database, server, memory all. A person used any amount of resource which he want
+
+Measured Service is a collection of information, that how much users visit your website and what is the motive to visit on that website.
+
+AWS launched in 2006.
+
+AWS Certificate
+AWS Solution Architect
+AWS DevOps
+AWS Sysops
+
+
+
+###################################
+Service Model or Service in Cloud
+Network, storage, Server, Virtualization, Opreating Server, Middleware, Runtime, Data, Application
+IAAS (Infrastructure as a Service) ---> Network, Storage, Server, Virtualization, Opreating System
+PAAS ( Platform as a Service) ---> Network, storage, Server, Virtualization, Opreating Server, Middleware, Runtime
+SAAS ( Software as a Service )----> Network, storage, Server, Virtualization, Opreating Server, Middleware, Runtime, Data, Application
+
+
+######################################
+Deployment of Cloud
+a) Public Cloud ---> AWS, Azure, GCP
+b) Private Cloud ----> Enterprise Cloud ---> which make company for self purpose
+c) Hybrid Cloud -----> Public Cloud data + Private Cloud (Best in Azure)
+
+##########################
+
+Microsoft Hypervisor ----> HyperC
+AWS ----------> Citrix
+VMWare -------------> Vsphere
+
+###########################
+
+AWS EC2 (Elastic Compute Cloud)
+
+EC2 is a virtual Machine.
+It provides scalable computing capacity in the AWS Cloud means you can use any range of CPU and any range of memory. there is no limitation to create virtual machine.
+You can use Amazon EC2 to launch as many or as few virtual servers as you need, configure security and networking and manage storage.
+Amazon EC2 enables you to scale up or scale down the instances in between running application.
+Amazon EC2 is having two storage options EBS (Elastic Block Storage) and instance store
+Elastic Block Storage have persistent Volume Capacity.(it does not delete even your instance deleted)
+Instance store have not Persistent Volume Capacity.fast (it deletes if your instance deleted)
+In Amazon Preconfigured template are available Known as Amazon Machine Image.
+By default when you create an EC2 account with amazon, your account is limited to a maximum of 20 instances per EC2 region with two default High I/O instances.
+In one region you can create maximum 20 Amazon Ec2 instances by default.
+
+
+Types of EC2 instances
+a) General Purpose--> Balanced Memory and CPU
+b) Compute Optimized --> More CPU than RAM
+c) Memoery Optimized  ---> More RAM
+d) Accelerated Computing/GPU ---> Graphics Optimized
+e) Storage Optimized ---> Low Latency
+f) High Memoery Optimized --> High RAM, Nitro System (Hypervisor). It is special type of hypervisor which is used resourced very efficient way.
+g) Hight Performance Optimized ---> High performance processor, used in complex simulations and deep learning workloads.
+h) Measuring Instance Performance ----> It allows you to provision a variety o instances types, which provide different combinations of CPU,memory, disk ans networking. Launching new instance and running test in parllel is easy and we recommend measuring the performance of applications to identify appropriate instances types and validation application architecture.
+i) Instances feature --> It provides a number of additional feature to help you deploy, manage and scale your applications.
+
+
+General Purpose Instances:- 
+General Purpose Instances provide a balance of compute, Memory ans Networking resource and can be used for a variety of workloads.
+
+3 Series in General Purpose:--
+
+A Series --> A1 (medium,large)
+M Series ---> M4, M5, M5a, M5ad, M5d ---> (Large)
+T Series ----> T2, T3, T3a (Every size availble)
+
+Instance avaliable in four sizes - Nano, Small, Medium, Large
+
+A1- instances: A1 instances are ideally suited for scale out workloads that are supported by the Arm Ecosystem.
+Basically we use A1 instances when we use low resources envirnoment and sudden required to change it in high resources.
+
+A1 instances are well suited for following application:-
+a) WebServer
+b) Containerized micro system
+c) Caching fleets
+d) Database data stores
+e) Application that requires Arm Instruction set
+
+
+MV4 instances:- The new MV4 instances feature a custom Intel Xeaon E5-2673 V3(nitro System Hypervisor) Haswell processor optimized specifically for EC2.
+VCPU: 2 to 40
+RAM: 8GB to 160 GB
+Enstance Storage: EBS only
+
+M5, M5a, M5ad and M5d instances:-These instances provide an ideal cloud infra, offering a balance of compute memory and Networking resource for a Broad range of Applications.
+It is used in Gaming Server, Web Server , small and medium database.
+VCPU: 2 to 96
+RAM: 8 to 384
+Instance Storage: EBS & NVM SSD
+
+T2, T3 and T3a Instance:
+These instance provide a baseline level of CPU performance with the ability to burst to a higher level when required by workload.
+An unlimited instance can sustain high CPU performance for any period of time whenever required.
+
+VCPU -> 2 to 8
+RAM -> 0.5 to 32 GB
+
+Used for->
+Website and Webapp
+Code Repositories
+Development,build,test
+Microservices (Docker, Kubernetes)
+
+
+
