@@ -1,4 +1,4 @@
-<h1> Install MySQL on AWS EC2 Instance </h1>
+# Install MySQL on AWS EC2 Instance
 
 <b> Step1: </b> Update the system
 
