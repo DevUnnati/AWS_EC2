@@ -6,7 +6,7 @@ sudo apt update
 
 <b> Step2: </b> Install MySQL Server
 
-sudo apt install MySQL-Server
+sudo apt install mysql-server
 
 <b> Step3: </b> Make Security Installation
 
